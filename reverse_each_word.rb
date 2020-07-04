@@ -3,6 +3,6 @@ newarray = sentence.split
 newarray.each do |element|
   element.reverse 
 end 
-newsentence = newarray.join(",")
+newsentence = newarray.join(" ")
 newsentence
 end 
