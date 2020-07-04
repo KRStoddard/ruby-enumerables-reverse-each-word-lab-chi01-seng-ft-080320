@@ -1,2 +1,8 @@
 reverse_each_word(sentence)
-sentence.collect 
+newarray = sentence.split("")
+newarray.each do |element|
+  element.reverse 
+end 
+newsentence = newarray.join(",")
+newsentence
+end 
